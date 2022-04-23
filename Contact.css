@@ -1,0 +1,149 @@
+*
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+}
+.navbar a{
+    margin: 0px 23px;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.navbar li{
+    display: inline-block;
+    /* padding: 10px; */
+}
+.navbar a:hover
+{
+    color: yellowgreen;
+    transition: .5s;
+    border-bottom: 1px solid yellowgreen;
+    padding-bottom: 6px;
+
+    border-top: 1px solid yellowgreen;
+    padding-top: 6px;
+    /* background-color: whitesmoke; */
+}
+
+body
+{
+    /* text-align: center; */
+    text-transform: uppercase;
+    word-spacing: 5px;
+    /* margin: 50px; */
+
+}
+.head
+{
+    margin-top: 80px;
+}
+.contact
+{
+    box-sizing: border-box;
+    border: 2px solid yellowgreen;
+}
+.form .label .form-control:focus
+{
+    border-color: yellowgreen;
+    box-shadow: 0 0 0 0.2rem rgb(215, 247, 151);
+}
+.form .label .form-control
+{
+    border-color: yellowgreen;
+}
+.form .label .btn
+{
+    border: 1px solid yellowgreen;
+    /* background: transparent; */
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    /* border-radius: 10px; */
+    /* color: yellowgreen; */
+}
+.form .label .btn:hover
+{
+    color: white;
+    background-color: yellowgreen;
+    transition: ease-in-out .6s;
+}
+.form
+{
+    padding: 20px;
+    font-weight: bolder;
+    /* justify-content: center; */
+}
+.label
+{
+    margin-top: 10px;
+    display: inline-flex;
+    justify-content: center;
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+}
+
+.icon::before
+{
+    content: icon;
+    box-sizing: border-box;
+    border: 1px solid yellowgreen;
+    border-radius: 50%;
+    font-size: 18px;
+    padding: 10px;
+    text-shadow: 0 3px 4px yellowgreen;
+}
+.line2
+{
+    border: 2px solid yellowgreen;
+    border-top-width: 2px;
+    border-bottom: 1rem;
+    width: 25%;
+    margin-left: 37.5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.social a i
+{
+    /* word-spacing: 10px; */
+    /* text-decoration: none; */
+    color: rgb(39, 39, 39);
+    /* text-align: left; */
+    /* margin-left: -100; */
+}
+.line
+{
+    border: 2px solid yellowgreen;
+    border-top-width: 2px;
+    border-bottom: 5rem;
+    width: 3%;
+    margin-left: 185px;
+    margin-top: -16px;
+    /* margin-top: 20px; */
+    margin-bottom: 30px;
+    
+}
+.ftr
+{
+    font-weight: lighter;
+    letter-spacing: 10px;
+    /* word-spacing: 5px; */
+    text-align: center;
+    font-size: 14px;
+    margin: 15px;
+}
+.ftr .bi
+{
+    color: yellowgreen;
+}
+/* .form-label:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+} */

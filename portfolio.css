@@ -1,0 +1,144 @@
+*
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    
+}
+html
+{
+    border: 2px solid yellowgreen;
+    
+}
+h1{
+    font-family: 'Tangerine', cursive;
+    /* color: yellowgreen; */
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 100px;
+    margin-bottom: 0px;
+    text-shadow: 0 3px 2px yellowgreen;
+}
+h2
+{
+    letter-spacing: 1.5px;
+}
+h1,h2
+{
+    margin-left: 40px;
+}
+.img
+{
+    float: right;
+    height: 600px;
+    width: 600px;
+    transition: ease-in-out 0.3s;
+    margin-right: -7px;
+    position: relative;
+}
+.navbar
+{
+    padding-top: 20px;
+}
+.navbar a{
+    margin: 0px 23px;
+    position: relative;
+}
+li{
+    display: inline-block;
+    /* padding: 20px; */
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.navbar a:hover
+{
+    color: yellowgreen;
+    transition: .4s;
+    border-bottom: 1px solid yellowgreen;
+    padding-bottom: 6px;
+
+    border-top: 1px solid yellowgreen;
+    padding-top: 6px;
+    /* background-color: whitesmoke; */
+}
+.container{
+    /* text-align: left; */
+    text-align: center;
+    padding-top: 45px;
+}
+span{
+    /* color: yellowgreen; */
+    border-bottom: 2px solid yellowgreen;
+    padding-bottom: 6px;
+}
+.icons
+{
+    /* margin: 30px; */
+    margin-top: 50px;
+    font-size: 25px;
+    justify-content: center;
+    margin-left: 40px;
+    /* align-items: center;
+    text-align: center; */
+}
+.icons i{
+    
+    /* transition: .6s; */
+    /* letter-spacing: 10px; */
+    padding: 15px;
+    text-align: center;
+    /* background-color: none; */
+}
+.icons i:hover
+{
+    text-shadow: 0 4px 5px rgb(112, 110, 110);
+    transition: .4s;
+    color: yellowgreen;
+
+}
+.animate__fadeInRight
+{
+    --animate-duration: 2s;
+}
+.animate__zoomInDown
+{
+    --animation-direction: 4s;
+}
+.navbar.animate__fadeInUpBig
+{
+    --animate-duration: 3s;
+}
+.icons.animate__fadeInUpBig
+{
+    --animate-duration: 4s;
+}
+.tagline h2
+{
+    color: yellowgreen;
+    text-align: center;
+}
+.part
+{
+    justify-content: center;
+    padding-top: 20px;
+}
+.ftr
+{
+    font-weight: lighter;
+    letter-spacing: 10px;
+    /* word-spacing: 5px; */
+    text-align: center;
+    float: bottom;
+    font-size: 15px;
+    padding-top: 50px;
+}
+.ftr .bi
+{
+    color: yellowgreen;
+}
+.heart
+{
+    transition: 2s;
+}
